@@ -164,7 +164,7 @@ const router = useRouter();
 				</button>) : (<></>)} */}
             <h1 className="text-3xl m-5 font-bold text-center ">Welcome To Time Wallet!</h1>
             <p className="text-lg w-4/5 md:w-1/2 text-center">Lock your MATIC in this Time Wallet for a given period of time. Your MATIC is locked with a smart contract deployed on Polygon Testnet (Safe and Secure)</p>
-            <p className="text-lg w-4/5 md:w-1/2 text-center mt-4 md:mt-2">Note : Testnet MATIC used is in this project. Get some testnet MATIC from : <a className="underline" target="_blank" rel="noopener" href="https://faucet.polygon.technology/">here</a>
+            <p className="text-lg w-4/5 md:w-1/2 text-center mt-4 md:mt-2">Note : Testnet MATIC used is in this project. Get some testnet MATIC from : <a className="underline" href="https://faucet.polygon.technology/">here</a>
             </p>
             <div className="mt-16 flex text-black items-center">
                 <label className="mr-3 font-semibold" htmlFor="amtMATIC">Enter amount of MATIC : </label>
